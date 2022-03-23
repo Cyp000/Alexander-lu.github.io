@@ -6,13 +6,64 @@
   <title>艾尔登法环介绍</title>
   <link href="style.css" rel="stylesheet">
 </head>
-  <style>
+<style>
+    body{
+    display: flex;
+      min-width: 550px;
+      font-weight: bold;
+      Font-size: 20px;
+  flex-direction: column;
+}
+  #header,#footer{
+  background: rgba(29, 27, 27, 0.726);
+   text-align: center;
+    height: 60px;
+    line-height: 60px;
+  }
+  #footer{
+  claer: both;
+  }
+  #container{
+  padding-left: 200px;
+    padding-right: 150px;
+    overflow: hidden;
+  }
+  #container .colum{
+  position: relative;
+    float: left;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+  }
+  #center {
+  width: 100%;
+   background: rgb(206, 201, 201);
+  }
+  #left{
+  width: 200px;
+    right: 200px;
+    margin-left: -100%;
+    background: rgba(95, 179, 235, 0.972);
+  }
+  #right {
+  width: 150px;
+    margin-left: -150px;
+    right: -150px;
+    background: rgb(231, 105, 2);
+  }
+  </style>
 <body>
-<div class="body">
-  
-<header>
+    <div id="header">#header
+  <header>
 <h1>艾尔登法环-2022年度最佳游戏</h1>
-</header>
+</header></div>
+    <div id="container">
+  <div id="center" class="column">#center</div>  
+        <div id="left" class="column">#left</div>  
+        <div id="right" class="column">#right</div>  
+      </div>
+    <div id="footer">#footer</div>
+
 
 <main>
 <div class="main">  
