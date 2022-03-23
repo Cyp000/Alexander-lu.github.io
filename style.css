@@ -4,7 +4,11 @@ a:hover{color:green}
 a:active{color:purple}
 .body{
   display: flex;
-  flex-direction: column;            
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  
 }
 .main{
   display: flex;
