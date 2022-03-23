@@ -11,6 +11,7 @@ a:active{color:purple}
   
 }
 .main{
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
@@ -18,8 +19,18 @@ a:active{color:purple}
   flex: auto;
 }
 .aside{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   flex: 1;          
 }
 .article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
   flex: 3;         
 }
