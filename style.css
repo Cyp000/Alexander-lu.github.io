@@ -5,17 +5,9 @@ a:active{color:purple}
 .body{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  
 }
 .main{
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  flex: auto;
+  display: flex;
 }
 .aside{
   flex: 1;          
