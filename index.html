@@ -9,7 +9,7 @@
 <body>
   .box{
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 <header>
 <img src="https://resources.whatwg.org/logo-compat.png" alt="鲸鱼" />
@@ -17,11 +17,17 @@
 <main>
   .box{
   display: flex;
-  flex: auto
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+ .item {
+  flex: auto;
 }
 <article>
-    .box{
-  flex: 3
+    .item {
+  flex: 3;
 }
 <h1>艾尔登法环-2022年度最佳游戏</h1>
 <p>今年最热门的游戏绝对是艾尔登法环</p>
@@ -35,7 +41,9 @@
 <aside>
     .box{
   display: flex;
-  flex: 1
+}
+  .item {
+  flex: 1;
 }
   <h4>其他视频网站</h4>
   其他各种攻略网站在这里
