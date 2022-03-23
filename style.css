@@ -3,10 +3,6 @@ a:visited{color:red}
 a:hover{color:green}
 a:active{color:purple}
 .body{
-  margin: 0 210px;
-  height: 100px;
-  background: pink;
-  min-width: 800px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
