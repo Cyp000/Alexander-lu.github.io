@@ -2,3 +2,16 @@ a:link{color:blue}
 a:visited{color:red}
 a:hover{color:green}
 a:active{color:purple}
+.demo{
+  display: flex;
+  flex-direction: column;            
+}
+.demo div{
+  flex: 1;
+}
+.body{
+  display: flex;  
+} 
+.header,.footer,.left,.right{
+  flex: 0 0 20%!important;
+}
